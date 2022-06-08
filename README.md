@@ -17,7 +17,7 @@ Laravel + Laradock
        - Gere o arquivo .env (cp env-example .env)
  
 - Docker:
-   Obs: Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
+   - Obs: Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
    - docker-compose up -d nginx mysql phpmyadmin
    - Basta acessar o projeto passando na url localhost:"porta"
 
