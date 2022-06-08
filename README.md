@@ -1,2 +1,2 @@
 # laravel-laradock
-Laravel + laradock
+Laravel + Laradock
