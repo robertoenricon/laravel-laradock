@@ -8,7 +8,7 @@ Laravel + Laradock
    - Clone o Laravel https://github.com/laravel/laravel.git
 
 - Laradock:
-  - OBS: 
+  - Obs: 
        - Laradock vai ser utilizado em sua maquina. Nao subira para o repositorio.
        - Nao precisa clonar dentro da pasta do projeto Laravel, pode ser uma pasta fora
   - Instalacao:
@@ -17,8 +17,8 @@ Laravel + Laradock
        - Gere o arquivo .env (cp env-example .env)
  
 - Docker:
-   - OBS: 
-   - - Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
+   - Obs: 
+   - Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
    - docker-compose up -d nginx mysql phpmyadmin
    - Basta acessar o projeto passando na url localhost:"porta"
 
