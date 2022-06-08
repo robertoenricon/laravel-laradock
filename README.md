@@ -1,10 +1,10 @@
 # laravel-laradock
 Laravel + Laradock
 
-- 1. Introduçao:
+- Introduçao:
    - Esse repositorio é um repositorio meu conteudo meu projeto já em laravel. Caso voce nao tenha o Laravel, va para o item 2 e clone o repositorio padrao do Laravel
 
-- 2. Laravel:
+- Laravel:
    - Clone o Laravel https://github.com/laravel/laravel.git
 
 - 3. Laradock:
