@@ -8,14 +8,14 @@ Laravel + Laradock
    - Clone o Laravel https://github.com/laravel/laravel.git
 
 3. Laradock:
-  3.1. Importante: 
+  - 3.1. Importante: 
        - Laradock vai ser utilizado em sua maquina. Nao subira para o repositorio.
        - Nao precisa clonar dentro da pasta do projeto Laravel, pode ser uma pasta fora
   
-  3.2. Instalacao:
+  - 3.2. Instalacao:
        - Clone o Laradock https://github.com/laradock/laradock
   
-  3.3. Arquivo .env
+  - 3.3. Arquivo .env
        - Gere o arquivo .env (cp env-example .env)
  
 4. Docker:
