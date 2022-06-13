@@ -35,7 +35,7 @@ Laravel + Laradock
    - Rodar o composer dentro do container docker:
       - docker-compose exec --user=laradock workspace  bash
       - composer install 
-      - php artisan migration
+      - php artisan migrate
       - npm install && npm run dev (caso de erro por conta do dev, trocar para development)
       
        
