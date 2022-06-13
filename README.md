@@ -31,7 +31,7 @@ Laravel + Laradock
       - Acessar o .env, procurar o MYSQL_DATABASE e colocar o nome do banco que voce criou na opcao anterior e o user e pass
 
    - Rodar o composer dentro do container docker:
-      - docker-compose exec "nome container" bash
+      - docker-compose exec "nome container" bash (dentro do arquivo .env "COMPOSE_PROJECT_NAME" = nome do container)
       - composer install 
       - php artisan migration
       - npm install && npm run dev (caso de erro por conta do dev, trocar para development)
