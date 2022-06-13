@@ -7,7 +7,7 @@ Laravel + Laradock
 - Laravel:
    - Clone o Laravel https://github.com/laravel/laravel.git
    - Arquivo .env:
-      - Gere o arquivo .env (cp env-example .env)
+      - Gere o arquivo .env (cp env.env-example .env)
 
 - Laradock:
   - Obs: 
