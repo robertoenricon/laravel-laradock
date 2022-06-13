@@ -27,7 +27,7 @@ Laravel + Laradock
       - user e senha padrao: root
       - Acessar config/database.php procurar pela estrutura do mysql e pegar qual o tipo de collation que o Laravel usa
       - Assim que estiver com a collation, criar o seu banco
-      - Acessar o .env, procurar o MYSQL_DATABASE e colocar o nome do banco que voce criou na opcao anterior e o user e pass
+      - Acessar o .env (raiz do projeto), procurar o MYSQL_DATABASE e colocar o nome do banco que voce criou na opcao anterior e o user e pass
 
    - Rodar o composer dentro do container docker:
       - docker-compose exec --user=laradock workspace  bash
