@@ -6,6 +6,8 @@ Laravel + Laradock
 
 - Laravel:
    - Clone o Laravel https://github.com/laravel/laravel.git
+   - Arquivo .env:
+      - Gere o arquivo .env (cp env-example .env)
 
 - Laradock:
   - Obs: 
@@ -14,9 +16,6 @@ Laravel + Laradock
   - Instalacao:
        - Clone o Laradock https://github.com/laradock/laradock
   
-- Arquivo .env:
-   - Gere o arquivo .env (cp env-example .env)
- 
 - Docker:
    - Obs: 
    - Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
