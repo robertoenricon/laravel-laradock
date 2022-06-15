@@ -35,7 +35,7 @@ Laravel + Laradock
          - DB_PASSWORD=root
 
    - Rodar o composer dentro do container docker:
-      - docker-compose exec --user=laradock workspace  bash
+      - Entrar na pasta laradock e rodar "docker-compose exec --user=laradock workspace  bash"
       - rm -rf vendor && composer install
       - php artisan key:generate
       - php artisan migrate
