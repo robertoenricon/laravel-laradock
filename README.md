@@ -6,6 +6,7 @@ Laravel + Laradock
 
 - Laravel:
    - Clone o Laravel https://github.com/laravel/laravel.git
+   - Gere o arquivo .env (cp .env.example .env)
 
 - Laradock:
   - Obs: 
@@ -26,9 +27,12 @@ Laravel + Laradock
    - MYSQL:
       - localhost:"porta" (consta no .env, procurar por mysql)
       - user e senha padrao: root
-      - Acessar config/database.php procurar pela estrutura do mysql e pegar qual o tipo de collation que o Laravel usa
+      - Acessar ./config/database.php procurar pela estrutura do mysql e pegar qual o tipo de collation que o Laravel usa
       - Assim que estiver com a collation, criar o seu banco
-      - Acessar o .env (raiz do projeto), procurar o DB_DATABASE e colocar o nome do banco que voce criou na opcao anterior e o user e pass
+      - Acessar o .env (raiz do projeto), procurar o DB_DATABASE:
+         - DB_HOST=mysql
+         - DB_USERNAME=root
+         - DB_PASSWORD=root
 
    - Rodar o composer dentro do container docker:
       - docker-compose exec --user=laradock workspace  bash
