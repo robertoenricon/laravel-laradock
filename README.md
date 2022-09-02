@@ -11,10 +11,10 @@ Laravel + Laradock
 - Laradock:
   - Obs: 
        - Laradock vai ser utilizado dentro do seu projeto LARAVEL.
-  - Instalacao (dentro da pasta laradock):
+  - Instalacao:
        - Clone o Laradock https://github.com/laradock/laradock
        - Adicionar pasta do laradock no .gitignore pois iremos iniciar os containeres do docker acessando essa pasta, como vai ser local, nao subir a pasta
-  - Arquivo .env:
+  - Arquivo .env (dentro da pasta laradock):
       - Gere o arquivo .env (cp .env.example .env)
 
 - Criação do Container + Configuração
