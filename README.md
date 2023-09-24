@@ -5,7 +5,7 @@ Laravel + Laradock
    - Laravel com ambiente em laradock.
 
 - Laravel:
-   - Clone o Laravel https://github.com/laravel/laravel.git
+   - Clone o Laravel https://github.com/laravel/laravel.git new "nome do projeto"
    - Gere o arquivo .env (cp .env.example .env)
 
 - Laradock:
