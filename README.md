@@ -19,12 +19,6 @@ Laravel + Laradock
       - Gere o arquivo .env (cp .env.example .env)
 
 - Criação do Container + Configuração
-   - Docker:
-      - Obs (dentro do projeto laradock): 
-         - Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
-         - ex: docker-compose up -d nginx mysql phpmyadmin
-         - Basta acessar o projeto passando na url localhost:"porta"
-
    - MYSQL:
       - localhost:"porta" (consta no .env, procurar por mysql)
       - user e senha padrao: root
@@ -34,6 +28,12 @@ Laravel + Laradock
          - DB_HOST=mysql
          - DB_USERNAME=root
          - DB_PASSWORD=root
+           
+   - Docker:
+      - Obs (dentro do projeto laradock): 
+         - Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
+         - ex: docker-compose up -d nginx mysql phpmyadmin
+         - Basta acessar o projeto passando na url localhost:"porta"
 
    - Rodar o composer dentro do container docker:
       - Entrar na pasta laradock e rodar "docker-compose exec --user=laradock workspace  bash"
