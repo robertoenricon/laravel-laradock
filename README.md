@@ -25,8 +25,9 @@ Laravel + Laradock
       - Acessar ./config/database.php procurar por "mysql":
          - collation = uft8mb4_unicode_ci
          - Utilizar os mesmos parametros que se encontrando no.env (.env == database.php):
-            - DB_HOST=mysql
-            - DB_USERNAME=root
+            - DB_HOST=
+            - DB_DATABASE=
+            - DB_USERNAME=
             - DB_PASSWORD=
            
    - Docker:
