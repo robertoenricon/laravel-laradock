@@ -19,7 +19,7 @@ Laravel + Laradock
       - Gere o arquivo .env (cp .env.example .env)
 
 - Criação do Container + Configuração
-   - MYSQL:
+   - MYSQL (dentro do projeto laradock):
       - localhost:"porta" (consta no .env, procurar por mysql)
       - user e senha padrao: root
       - Acessar ./config/database.php procurar pela estrutura do mysql e pegar qual o tipo de collation que o Laravel usa
