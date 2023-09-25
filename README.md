@@ -22,12 +22,12 @@ Laravel + Laradock
    - MYSQL (dentro do projeto laradock):
       - localhost:"porta" (consta no .env, procurar por mysql)
       - user e senha padrao: root
-      - Acessar ./config/database.php procurar pela estrutura do mysql e pegar qual o tipo de collation que o Laravel usa
-      - Assim que estiver com a collation, criar o seu banco
-      - Acessar o .env (raiz do projeto), procurar o DB_DATABASE:
-         - DB_HOST=mysql
-         - DB_USERNAME=root
-         - DB_PASSWORD=root
+      - Acessar ./config/database.php procurar por "mysql":
+         - collation = uft8mb4_unicode_ci
+         - Utilizar os mesmos parametros que se encontrando no.env (.env == database.php):
+            - DB_HOST=mysql
+            - DB_USERNAME=root
+            - DB_PASSWORD=
            
    - Docker:
       - Obs (dentro do projeto laradock): 
