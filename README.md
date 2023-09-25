@@ -32,7 +32,7 @@ Laravel + Laradock
    - Docker:
       - Obs (dentro do projeto laradock): 
          - Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
-         - ex: docker-compose up -d nginx mysql phpmyadmin
+            - ex: docker-compose up -d nginx mysql phpmyadmin
          - Basta acessar o projeto passando na url localhost:"porta"
 
    - Rodar o composer dentro do container docker:
