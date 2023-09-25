@@ -33,14 +33,14 @@ Laravel + Laradock
       - Obs (dentro do projeto laradock): 
          - Escolher as imagens que constam dentro do arquivo .env para criacao dos containers
             - ex: docker-compose up -d nginx mysql phpmyadmin
+              
+      - Rodar o composer dentro do container docker:
+         - docker-compose exec --user=laradock workspace  bash
+         - rm -rf vendor && composer install
+         - php artisan key:generate
+         - php artisan migrate
+         - npm install && npm run dev (caso de erro por conta do dev, trocar para development)
          - Basta acessar o projeto passando na url localhost:"porta"
-
-   - Rodar o composer dentro do container docker:
-      - Entrar na pasta laradock e rodar "docker-compose exec --user=laradock workspace  bash"
-      - rm -rf vendor && composer install
-      - php artisan key:generate
-      - php artisan migrate
-      - npm install && npm run dev (caso de erro por conta do dev, trocar para development)
       
        
        
